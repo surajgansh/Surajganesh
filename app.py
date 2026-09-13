@@ -198,7 +198,7 @@ elif menu == "View Reports / Bill":
     
 st.write(f"**Patient Name:** {selected_p['name']}")
 
-      st
+      
      .write(**Patient Name:** {selected_p['name']})
       st.write(**Age/Gender:** {selected_p['age']} Yrs / {selected_p['gender']})
     with col2:
@@ -249,4 +249,5 @@ st.write(f"**Patient Name:** {selected_p['name']}")
       )
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
