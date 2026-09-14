@@ -198,10 +198,16 @@ elif menu == "View Reports / Bill":
     
 st.write(f"**Patient Name:** {selected_p['name']}")
 
-      
-     .write(**Patient Name:** {selected_p['name']})
-      st.write(**Age/Gender:** {selected_p['age']} Yrs / {selected_p['gender']})
-    with col2:
+      with col1:
+    **Patient Name:** {selected_p['name']})
+      ^
+    st.write(f"**Patient Name:** {selected_p['name']}")
+    st.write(f"**Age/Gender:** {selected_p['age']} Yrs / {selected_p['gender']}")
+with col2:
+    st.write(f"**Date:** {selected_p['date']}")
+    st.write(f"**Phone:** {selected_p['phone']}")
+    st.write(f"**Referring Doctor:** {selected_p['doctor']}")
+with
       st.write(**Date:** {selected_p['date']})
       st.write(**Phone:** {selected_p['phone']})
       st.write(**Referring Doctor:** {selected_p['doctor']})
